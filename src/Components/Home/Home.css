@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Playfair+Display:wght@600&family=Salsa&display=swap");
+
+/* font-family: 'Lemon', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Salsa', cursive; */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h2 {
+  font-size: 50px;
+  font-family: "Salsa", cursive;
+  margin-bottom: 20px;
+}
+.start-btn {
+  width: 200px;
+  color: #ffffff;
+  background-color: #ffff;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px 7px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lemon", serif;
+  border: 4px solid #6a92b9;
+  cursor: pointer;
+  font-family: "Lemon", serif;
+}
+.start-btn:hover {
+  background-color: #6a92b9;
+}
+.home a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .home h2 {
+    font-size: 30px;
+  }
+  .start-btn {
+    width: 150px;
+  }
+  .home a {
+    font-size: 15px;
+  }
+}
